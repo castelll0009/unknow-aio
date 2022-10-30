@@ -11,16 +11,15 @@ header{
     justify-content: space-between;
     align-items: flex-start;
     max-height: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 0;
-    padding-bottom: 5px;
+    padding: 10px 50px 10px 50px;
 }
 .container-logo-title{
     display: flex;
     max-height: 50px;
     align-items: center;
+}
+.short-title{
+    color: #187148;
 }
 
 .container-logo-title span{

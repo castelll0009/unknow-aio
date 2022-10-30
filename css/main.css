@@ -20,6 +20,14 @@ body{
 	*/
 	color: white;
 }
+.theme-color{
+	color: #3ebd94 !important;
+}
+.theme-font-titles{
+	font-family: fantasy;
+	color: #3ebd94;
+	color: white;
+}
 footer{
 	background-color: black;
 	margin-top: 0;
@@ -145,8 +153,7 @@ main{
 	z-index: 0;
 }
 
-#info-title{
-	color: #E0A023;
+#info-title{	
 	margin-top: 200px;
 	font-size: 5em;
 	margin-bottom: 20px;
@@ -185,9 +192,7 @@ article{
 .fuente-tam{
 	font-size: 3.5em;	
 }
-.color-verde{
-	color: #E0A023;
-}
+
 .margen-derecha{
 	margin-right: 1em;
 }
@@ -260,8 +265,9 @@ h2{
 .info-container{
     /* backdrop-filter: blur(2px); */
     /* background-color: rgba(0, 0, 0, 0.1); */
-    text-align: center;
+    text-align: left;
     margin-top: 0;
+	padding: 0px 850px 0px 100px;
 }
 .img-logo{	
 	width: 9%;		

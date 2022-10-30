@@ -52,11 +52,11 @@ function changeImgResolution(){
 	if (screen.width < 1024){
 	//resolucion movil
 	console.log("movil");	
-	$('.img-foto').attr('src', 'imgs/fondo-mojitos.png');
+	$('.img-foto').attr('src', 'imgs/Artboard 8.png');
 	}else{		
 	//resolucioin pc
 	console.log("pc");
-	$('.img-foto').attr('src', 'imgs/portada-pc-q.png');	
+	$('.img-foto').attr('src', 'imgs/Artboard 8.png');	
 	}	
 }
 

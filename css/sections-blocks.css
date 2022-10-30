@@ -12,6 +12,12 @@
     padding: 5.6vw; 
     flex-direction: row ;   
 }
+.cont-background{
+    width: 100%;    
+}
+.cont-background img{
+    width: 100%;      
+}
 .blocks-gallery{
 
     align-items: center;
