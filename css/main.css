@@ -111,7 +111,7 @@ width: 100%;
 }
 .section-products{
 	display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
