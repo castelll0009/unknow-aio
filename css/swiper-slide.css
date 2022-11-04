@@ -12,6 +12,23 @@ body {
   margin: 0;
   padding: 0;
 }
+.content {
+  height: 500px;
+  min-height: 500px;
+  margin: auto;
+  width: 100%;
+  max-width: 1050px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.cont-swiper-container{
+  max-width: 100% !important;
+  background-image: url(../imgs/imgs/Banner\ wo\ logo_auto_x2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 620px  !important;
+}
 .contenedor-todo-swiper{
   z-index: 50;
   width: 100%;  

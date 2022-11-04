@@ -5,7 +5,7 @@
 	padding-bottom: 50px;   
   width: 100%;  
   min-height: 500px;
-  background: url(http://lol-stats.net/uploads/nleWJB1jH5kiFgU4nurA1slz5cyijiQCvUZb1Eka.jpeg) center no-repeat;
+  /* background: url(http://lol-stats.net/uploads/nleWJB1jH5kiFgU4nurA1slz5cyijiQCvUZb1Eka.jpeg) center no-repeat; */
   background-size: cover;
   position: relative;
   overflow: hidden;
@@ -105,13 +105,14 @@
 /*product slider*/
 .product-slider {
   width: 75%;
-  height: 75%;
-  border-radius: 30px;
-  box-shadow: 0 28px 79px 0 rgb(10 22 31 / 35%);
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+    height: 75%;
+    background-color: #000000a8;
+    border-radius: 10px;
+    box-shadow: 0 28px 79px 0 rgb(10 22 31 / 35%);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 /*buttoms*/
 .swiper-button-prev{
