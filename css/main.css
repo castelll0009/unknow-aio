@@ -449,13 +449,7 @@ span{
 		opacity: 1;							
 	}		
 	
-	#img-home{					
-		min-width: 340px; 
-		min-height: auto;		
-		padding-left: -20px;						
-		/*box-shadow: 0px 0px 40px -5px; 	*/
-		box-shadow: none;	
-	}
+
 	#info-title{
 		font-size: 3em;
 	}
