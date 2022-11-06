@@ -1,0 +1,20 @@
+.cont-img-portada{		
+    min-width: 340px; 
+    min-height: auto;		
+    padding-left: -20px;						
+    /*box-shadow: 0px 0px 40px -5px; 	*/
+    box-shadow: none;	
+    width: auto;
+    display: block;
+    height: 100vh;
+    background-image: url(../imgs/unknow-imgs/portada-pc.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: center;
+}
+
+@media only screen and (max-width: 1200px){
+    .cont-img-portada {        
+        background-image: url(../imgs/unknow-imgs/portada-movil.png);        
+    }
+  }

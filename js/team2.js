@@ -6,6 +6,7 @@ var swiper = new Swiper('.product-slider', {
     paginationClickable: true,
     slideToClickedSlide: true,
     effect: 'fade',
+  
         //initialSlide: 3,
     loop: false,
     navigation: {
