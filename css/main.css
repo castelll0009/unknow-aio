@@ -20,6 +20,12 @@ body{
 	*/
 	color: white;
 }
+.backgrounds-cover{
+	background-size: cover;
+	background-repeat: no-repeat;    
+	background-position: center;
+}
+
 .theme-color{
 	color: #3ebd94 !important;
 }
