@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400');
 
+@font-face {
+	font-family: 'Sacred Hertz';
+	src: url('../fonts/sacred_hertz/Sacred\ Hertz.otf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+  }
+  @font-face {
+	font-family: 'Sugo-Pro-Classic-Bold-trial';
+	src: url('../fonts/sugo_pro_classic/Sugo-Pro-Classic-Bold-trial.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+  }
+  @font-face {
+	font-family: 'Sugo-Pro-Classic-ExtraLight-trial';
+	src: url('../fonts/sugo_pro_classic/Sugo-Pro-Classic-ExtraLight-trial.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +26,7 @@
     font-family: 'Nunito', sans-serif;
 }
 body{		
-	font-family: 'Kaushan Script', cursive;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Zilla Slab', serif;
+	font-family: 'Sugo-Pro-Classic-ExtraLight-trial';
 	background-color: #07070A;
 	/*-webkit-user-select: none;*/
 	/*background-image: url(../imgs/fondo-portada.jpg);
@@ -30,10 +47,17 @@ body{
 	color: #3ebd94 !important;
 }
 .theme-font-titles{
-	font-family: fantasy;
+	font-family: "Sacred Hertz";
 	color: #3ebd94;
 	color: white;
 }
+.theme-font-subtitles{
+	font-family: "Sugo-Pro-Classic-Bold-trial";	
+}
+.theme-font-body{
+	font-family: "Sugo-Pro-Classic-ExtraLight-trial";	
+}
+
 footer{
 	background-color: black;
 	margin-top: 0;
