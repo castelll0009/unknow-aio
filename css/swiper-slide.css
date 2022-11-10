@@ -82,10 +82,16 @@ body {
 .swiper-button-next:after, .swiper-button-prev:after {
   font-family: swiper-icons;
   /* font-size: var(--swiper-navigation-size); */
-  font-size: 0.9em !important;
+  font-size: 50px !important;
   color: aquamarine;
   text-transform: none!important;
   letter-spacing: 0;
   font-variant: initial;
   line-height: 1;
+}
+@media screen and (max-width: 800px){	
+  .swiper-button-next:after, .swiper-button-prev:after {   
+    font-size: 0.9em !important;
+ 
+  }
 }
