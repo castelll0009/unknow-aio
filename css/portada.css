@@ -18,3 +18,25 @@
         background-image: url(../imgs/unknow-imgs/portada-movil.png);        
     }
   }
+
+
+  .button-front{
+    bottom: 20%;
+    position: absolute;
+    margin: auto;
+    display: block;
+    margin-left: 34%;
+    width: 30%;
+    font-size: 25px;
+    color: black;
+    height: 60px;
+    background-color: #52f3ef;
+    border-radius: 15px;
+    border: none;
+}
+
+.button-front:hover{
+width: 32%;
+height: 62px;
+
+}
