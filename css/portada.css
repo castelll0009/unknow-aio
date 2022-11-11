@@ -45,7 +45,7 @@
     background-color: #262d35;
     color: antiquewhite;
     box-shadow: 0 0 10px #262d35,0 0 40px #262d35,0 0 80px #262d35;
-    transition-delay: 1s;
+    transition-delay: 0.7s;
     outline: none;
     text-decoration: none;
     border: none;
@@ -66,7 +66,7 @@
 
 .button-unknow-primary:hover span:nth-child(1){
     left: 100%;
-    transition: 1s;
+    transition:0.5s;
     outline: none;
     text-decoration: none;
 }
@@ -81,8 +81,8 @@
 
 .button-unknow-primary:hover span:nth-child(3){
     right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
+    transition: 0.3s;
+    transition-delay: 0.25s;
     outline: none;
     text-decoration: none;
 }
@@ -98,8 +98,8 @@
 
 .button-unknow-primary:hover span:nth-child(2){
     top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
+    transition: 0.3s;
+    transition-delay: 0.1s;
     outline: none;
     text-decoration: none;
 }
@@ -114,8 +114,8 @@
 
 .button-unknow-primary:hover span:nth-child(4){
     bottom:  100%;
-    transition: 1s;
-    transition-delay: 0.75s;
+    transition: 0.3s;
+    transition-delay: 0.5s;
     outline: none;
     text-decoration: none;
 }
