@@ -26,24 +26,26 @@
     position: absolute;
     margin: auto;
     display: block;
-    /*width: 20;*/
-    min-width: 160px;
-    max-width: 400px;
+    min-width: 320px;
+    max-width: 600px;
     font-size: 25px;
     color: black;
-    height: 40px;
+    height: max-content;
     background-color: #52f3ef;
-    border-radius: 10px;
+    border-radius: 3px;
     border: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     overflow: hidden;
     letter-spacing: 4px;
+    padding: 3px 15px 3px 15px;
+    font-size: 2.5em;
 
 }
 
 .button-unknow-primary:hover{
     background-color: #262d35;
-    color: antiquewhite;
+    color: rgb(0 255 171);
+    color: #52f3ef;
     box-shadow: 0 0 10px #262d35,0 0 40px #262d35,0 0 80px #262d35;
     transition-delay: 0.7s;
     outline: none;
@@ -127,8 +129,22 @@
 @media only screen and (max-width: 1200px)
 {
     .button-unknow-primary{
-        font-size: 14px;
+        bottom: 20%;
+        position: absolute;
+        margin: auto;
+        display: block;
+        min-width: 190px;
+        max-width: 400px;
+        font-size: 25px;
+        color: black;
         height: 40px;
-        width: 125px;
+        background-color: #52f3ef;
+        border-radius: 3px;
+        border: none;
+        /* text-transform: uppercase; */
+        overflow: hidden;
+        letter-spacing: 4px;
+        padding: 1px 15px 1px 15px;
+        font-size: 2em;
     }
 }
