@@ -26,10 +26,12 @@
     position: absolute;
     margin: auto;
     display: block;
-    width: 30%;
+    /*width: 20;*/
+    min-width: 160px;
+    max-width: 400px;
     font-size: 25px;
     color: black;
-    height: 60px;
+    height: 40px;
     background-color: #52f3ef;
     border-radius: 10px;
     border: none;
