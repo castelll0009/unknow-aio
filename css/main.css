@@ -50,7 +50,10 @@ body{
 	font-family: "Sacred Hertz";
 	color: #3ebd94;
 	color: white;
+	font-size: 4em;
 }
+
+
 .theme-font-subtitles{
 	font-family: "Sugo-Pro-Classic-Bold-trial";	
 }
@@ -434,12 +437,17 @@ span{
 
 	#beepc{	
 		display: none;				
-	}	
+		
+	}		
 	
 }
 /*movil///////////////////////////////////////////*/
 /*movil///////////////////////////////////////////*/
-@media screen and (max-width: 800px){	 
+@media screen and (max-width: 800px){	
+
+	.theme-font-titles{
+		font-size: 3em;
+	}
 
 	.circular-gradient-top-bottom{ /*degradado  circular de  arriba hacia abajo*/
 		background-image: radial-gradient(circle at 50% 0, rgb(0 0 0 / 25%) 40%, black 70% );   	
