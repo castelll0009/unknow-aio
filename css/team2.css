@@ -922,7 +922,7 @@ button, hr, input {
   border: none;
   color: #fff;
   padding: 10px 30px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   min-height: 20px;
   font-weight: 700;
   font-size: 14px;
