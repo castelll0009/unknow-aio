@@ -35,7 +35,7 @@ html body{
     background-position: center;
     background-attachment: fixed;
 	*/
-	color: white;
+	color: silver;
 }
 .backgrounds-cover{
 	background-size: cover;
@@ -58,7 +58,8 @@ html body{
 	font-family: "Sugo-Pro-Classic-Bold-trial";	
 }
 .theme-font-body{
-	font-family: "Sugo-Pro-Classic-ExtraLight-trial";	
+	font-family: "Sugo-Pro-Classic-ExtraLight-trial";
+	font-size: 2em;	
 }
 
 footer{
@@ -447,6 +448,10 @@ span{
 
 	.theme-font-titles{
 		font-size: 3em;
+	}
+	.theme-font-body{
+		font-family: "Sugo-Pro-Classic-ExtraLight-trial";	
+		font-size: 1.3em !important;
 	}
 
 	.circular-gradient-top-bottom{ /*degradado  circular de  arriba hacia abajo*/
