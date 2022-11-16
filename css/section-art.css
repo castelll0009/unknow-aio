@@ -6,14 +6,16 @@ main .section-art{
     /* background-image: url("../imgs/unknow-imgs/square-background.png") ; */
     display: flex;
     flex-direction: column !important;
+    background: rgb(55,75,98);
+    background: radial-gradient(circle, rgba(55,75,98,1) 0%, rgba(38,45,53,1) 100%);
+    z-index: 1;
     
 }
 
 .section-art .cont-container{    
-    padding: 100px;
-    background: rgb(55,75,98);
-    background: radial-gradient(circle, rgba(55,75,98,1) 0%, rgba(38,45,53,1) 100%);
+ 
     padding: 80px 50px 10px 50px;
+
     height: auto;
     /* background-color: rgb(38, 45, 53); 
     width: 100%;
