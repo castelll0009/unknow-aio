@@ -9,8 +9,8 @@ main .section-art{
     background: rgb(55,75,98);
     background: radial-gradient(circle, rgba(55,75,98,1) 0%, rgba(38,45,53,1) 100%);           
     background: rgb(55,75,98);
-    background: radial-gradient(circle, rgb(120 30 231 / 59%) 0%, rgba(38,45,53,1) 100%); 
-    background: radial-gradient(circle, rgb(205 92 254 / 45%) 0%, rgba(38,45,53,1) 100%);
+    /* background: radial-gradient(circle, rgb(120 30 231 / 59%) 0%, rgba(38,45,53,1) 100%); 
+    background: radial-gradient(circle, rgb(205 92 254 / 45%) 0%, rgba(38,45,53,1) 100%); */
  
     
     z-index: 0;
