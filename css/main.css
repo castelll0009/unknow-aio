@@ -25,7 +25,7 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
-body{		
+html body{		
 	font-family: 'Sugo-Pro-Classic-ExtraLight-trial';
 	background-color: #07070A;
 	/*-webkit-user-select: none;*/
