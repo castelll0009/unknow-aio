@@ -747,7 +747,7 @@ button, hr, input {
   line-height: 0.9;
   height: 100vw;
   height: 40vh;
-  padding-top: 40px;
+  padding-top: 0px;
   
   }
   .product-slider__title {
