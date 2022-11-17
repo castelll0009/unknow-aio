@@ -4,6 +4,11 @@ header{
     width: 100%;
   
 }
+
+header .bg-dark{
+    background-color: #27303a98 !important;
+    background-color: #27303a00 !important;
+}
 .cont-header{           
     display: flex;
     flex-wrap: nowrap;
@@ -12,6 +17,13 @@ header{
     align-items: flex-start;
     max-height: fit-content;
     padding: 10px 20px 10px 20px;
+}
+.navbar-brand {
+    width: auto;    
+    max-width: 100px;
+}
+.navbar-brand img{
+    width: 100%;
 }
 .container-logo-title{
     display: flex;
