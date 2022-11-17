@@ -12,6 +12,20 @@
     /*padding: 5.6vw;*/ 
     flex-direction: row ;   
 }
+.blocks-about{
+
+    align-items: center;
+    display: flex !important;
+    position: relative;        
+    /*min-height: 100vh;*/        
+    min-height: auto;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    /*padding: 5.6vw;*/ 
+    flex-direction: row ;   
+}
 .cont-background{
     width: 100%;    
 }

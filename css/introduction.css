@@ -3,6 +3,7 @@ main .blocks{
     padding: 0vw 0vw ; 
 }
 main .introduction{
+    background-color: #262d35;
     background-image: url("../imgs/unknow-imgs/square-background.png") ;
     
 }
