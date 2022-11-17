@@ -43,6 +43,12 @@ html body{
 	background-position: center;
 }
 
+main .blocks{
+    flex-direction: row;
+    padding: 0vw 0vw ; 
+    min-height: 100vh;
+}
+
 .theme-color{
 	color: #3ebd94 !important;
 }
@@ -56,6 +62,7 @@ html body{
 
 .theme-font-subtitles{
 	font-family: "Sugo-Pro-Classic-Bold-trial";	
+	font-size: 2em;
 }
 .theme-font-body{
 	font-family: "Sugo-Pro-Classic-ExtraLight-trial";
