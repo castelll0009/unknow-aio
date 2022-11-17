@@ -203,8 +203,16 @@ main{
 
 
 
-a{
-	color:#F2D02F;
+a{	
+	color: #5765f2;
+    color: #3ebe95;
+}
+.footnote a{	
+	color: #5765f2;
+    color: #3ebe95;
+}
+#link-about-us{
+	color: #3ebe95 !important;
 }
 article{	
 	margin-top: 10px;	

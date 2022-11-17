@@ -1,6 +1,7 @@
 main .blocks{
     flex-direction: row;
     padding: 0vw 0vw ; 
+    
  
 }
 main .section-lore{
@@ -17,6 +18,10 @@ main .section-lore{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .section-lore .cont-container{    
     padding: 80px 50px 100px;
@@ -71,6 +76,9 @@ main .section-lore{
         max-height: 100%;
         z-index: 0;    
     }
+    .section-lore .cont-container:nth-child(2){   
+        display: none;
+    } 
     main .blocks{
         flex-direction: column;
         padding: 0vw 0vw ; 
@@ -78,7 +86,7 @@ main .section-lore{
     
     .cont-lore-cont-container
     {
-        background-color: rgb(27 145 125);
+    background-color: rgb(27 145 125);
     background-image: url("../imgs/unknow-imgs/Imagen\ 2.png");
     background-size: 200%;
     background-position: center;
